@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Desktop Nav */
+#desktop-nav {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+    border-bottom: .1rem whitesmoke solid;
+    box-shadow: 0px 3px 10px whitesmoke;
+}
+
+.nav-name {
+    margin-left: 5rem;
+    margin-right: 1rem;
+    flex: none;
+}
+
+.nav-name p {
+    font-size: 2rem;
+}
+
+.nav-links {
+    display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-left: auto;
+        margin-right: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.dark-mode-button {
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    margin-right: 5rem;
+    flex: none;
+}
